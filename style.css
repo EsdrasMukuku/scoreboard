@@ -6,3 +6,60 @@
 * {
     margin: 0;
 }
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: #374151;
+   
+    background-color: #1b2f65;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    bottom: 85px;
+    font: Verdana;
+    line-height: 35.89px;
+    font-size: 40px;
+    color: #EEEEEE;
+   
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.score {
+   width: 155px;
+   height: 120px;
+   top: 125px;
+   left: 82px;
+   border-radius: 5px;
+   background-color: #080001; 
+   margin-bottom: 20px;
+
+}
+
+.increment {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    top: 272px;
+    left: 82px;
+  
+
+}
+
+button {
+    background-color: #1b2f65;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    width: 45px;
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
