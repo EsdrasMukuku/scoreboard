@@ -24,7 +24,7 @@ function updateScoreAndColor(element, score) {
   if (homeScore.textContent > guestScore.textContent) {
     homeScore.style.color = "#10B981"; // Leading score color is green
     guestScore.style.color = "#F94F6D"; // Reset other score to default color
-  } else if (homeScore.textContent < guestScore.textContent) {
+  }  if (homeScore.textContent < guestScore.textContent) {
     guestScore.style.color = "#10B981"; // Leading score color is green
     homeScore.style.color = "#F94F6D"; // Reset other score to default color
   } else {
